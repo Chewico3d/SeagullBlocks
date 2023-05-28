@@ -10,8 +10,8 @@ using OpenTK.Windowing.Desktop;
 namespace BlockRenderer.Core {
     public class ScreenWindow : GameWindow {
 
-        EventHandler FixedUpdate;
-        EventHandler FrameUpdate;
+        public EventHandler FixedUpdate;
+        public EventHandler FrameUpdate;
 
         public ScreenWindow(string Title) 
             : base(new GameWindowSettings() { IsMultiThreaded = true, RenderFrequency = 1f / 60f, UpdateFrequency = 0.02f}, new NativeWindowSettings() { Title = Title}) {

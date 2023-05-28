@@ -6,7 +6,7 @@ public static class Program {
     public static void Main(string[] args) {
 
         Swindow = new ScreenWindow("Seagull Blocks");
-
+        
         Swindow.Run();
         
     }

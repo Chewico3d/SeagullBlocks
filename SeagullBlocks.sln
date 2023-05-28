@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeagullBlocks", "SeagullBlocks\SeagullBlocks.csproj", "{07AA5D8B-C3F2-4716-8AB7-680429727A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeagullBlocks", "SeagullBlocks\SeagullBlocks.csproj", "{07AA5D8B-C3F2-4716-8AB7-680429727A20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockRenderer", "BlockRenderer\BlockRenderer.csproj", "{F11A2569-2B52-4945-A71E-368F14B569AF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockRenderer.Core", "BlockRenderer.Core\BlockRenderer.Core.csproj", "{9A177C71-5D49-401F-9155-8D956768DEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockRenderer", "BlockRenderer\BlockRenderer.csproj", "{F11A2569-2B52-4945-A71E-368F14B569AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{F11A2569-2B52-4945-A71E-368F14B569AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11A2569-2B52-4945-A71E-368F14B569AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11A2569-2B52-4945-A71E-368F14B569AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A177C71-5D49-401F-9155-8D956768DEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A177C71-5D49-401F-9155-8D956768DEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A177C71-5D49-401F-9155-8D956768DEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A177C71-5D49-401F-9155-8D956768DEE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
